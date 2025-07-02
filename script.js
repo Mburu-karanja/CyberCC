@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const events = [
             {
                 date: { day: '09', month: 'JUL' },
-                title: 'Online: Cybersecurity in the AI Era',
+                title: 'Online: xxxx',
                 description: 'Learn about different roles and how to prepare for them',
                 link: '#'
             }
