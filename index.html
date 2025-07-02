@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Chief Circle | Kenyan Cybersecurity Community</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo1.jpeg" alt="Cyber Chief Circle">
+                <span>Cyber Chief Circle</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+               <!-- <li><a href="resources.html">Resources</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Building Kenya's Cybersecurity Future Together</h1>
+                <p>A initiative by campus cybersecurity leads fostering collaboration and knowledge sharing</p>
+                <div class="hero-buttons">
+                    <a href="#join" class="btn primary">Join Our Community</a>
+                    <a href="events.html" class="btn secondary">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About The Initiative</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Campus-Led</h3>
+                    <p>Founded by cybersecurity leads from various Kenyan universities to strengthen digital defenses</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Focused</h3>
+                    <p>Bringing together students and professionals for knowledge sharing and collaboration</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security First</h3>
+                    <p>Promoting best practices in cloud security, threat intelligence, and more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Preview -->
+    <section id="events" class="section dark">
+    <div class="container" style="text-align: center;">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="events-slider">
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="day">15</span>
+                    <span class="month">JUN</span>
+                </div>
+                <div class="event-info">
+                    <h3>AWS Cloud Security Deep Dive</h3>
+                    <p>Exploring the CIA Triad in cloud environments with practical examples</p>
+                    <a href="#" class="btn small">Register Now</a>
+                </div>
+            </div>
+            </div>
+        <div class="text-center">
+            <a href="events.html" class="btn primary">View All Events</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Resources Preview -->
+    <section id="resources" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>AWS Security Presentation</h3>
+                    <p>Slides from our last cloud security workshop</p>
+                    <a href="assets/pdfs/aws-security.pdf" class="btn small" download>Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Threat Intelligence Workshop</h3>
+                    <p>Recording of our session on threat analysis</p>
+                    <a href="#" class="btn small">Watch Now</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="resources.html" class="btn secondary">Browse All Resources</a>
+            </div>
+        </div>
+    </section>
+<section id="join" class="section dark">
+    <div class="container">
+        <div class="join-container">
+            <div class="join-text">
+                <h2 class="section-title">Ready to Join the Circle?</h2>
+                <p>Connect with cybersecurity students and professionals across Kenyan campuses</p>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-check"></i> Access to exclusive workshops</li>
+                    <li><i class="fas fa-check"></i> Mentorship opportunities</li>
+                    <li><i class="fas fa-check"></i> Networking with industry leaders</li>
+                </ul>
+            </div>
+            <div class="join-form">
+                <form id="membershipForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="university" name="university" placeholder="University/Organization" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="interest" name="interest" required>
+                            <option value="">I'm interested in...</option>
+                            <option value="workshops">Attending Workshops</option>
+                            <option value="mentorship">Mentorship Program</option>
+                            <option value="speaking">Speaking Opportunities</option>
+                            <option value="all">All of the Above</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn primary">Submit Application</button>
+                    <div id="form-status" style="margin-top: 15px; text-align: center; font-weight: bold;"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Cyber Chief Circle</h3>
+                    <p>An initiative by Kenyan campus cybersecurity leads fostering collaboration and knowledge sharing in the cybersecurity field.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div id="contact" class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <!--<li><i class="fas fa-envelope"></i> contact@cyberchiefcircle.co.ke</li> -->
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/company/cyber-cc">LinkedIn Page</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cyber Chief Circle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
